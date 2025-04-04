@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/jpg" href="images/profile.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <section class="profile-and-logo">
+            <a style="text-decoration: none" href="#hero"><img class="profile" src="images/profile.jpg" alt="profile"></a>
+            <h2>that<span><a style="text-decoration: none; color: gold" href="#hero">greed</a></span>ydude</h2>
+        </section>
+        <nav class="navigation">
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </nav>
+        <a href="#contact" class="btn-talk">Contact Me</a>
+    </header>
+
+    <section id="hero" class="home">
+        <div class="content">
+            <h2>It's a-me, <span>Charl Rey Garcia</span></h2>
+            <h4>Let's-a go!</h4>
+        </div>
+    </section>
+
+    <section id="skills" class="section parallax">
+        <h2 class="section-title">My Skills</h2>
+        <div class="section-list">
+            <div class="section-item"><i class="fa-solid fa-laptop-code"></i><p>Python</p></div>
+            <div class="section-item"><i class="fa-solid fa-laptop-code"></i><p>Java</p></div>
+            <div class="section-item"><i class="fa-solid fa-gamepad"></i><p>Game Dev</p></div>
+            <div class="section-item"><i class="fa-solid fa-database"></i><p>SQL</p></div>
+            <div class="section-item"><i class="fa-solid fa-brain"></i><p>ML</p></div>
+        </div>
+    </section>
+
+    <section id="projects" class="section parallax">
+        <h2 class="section-title">Projects</h2>
+        <div class="section-list">
+            <div class="section-item">
+                <img class="project-icon" src="images/HoneyOS_Icon.ico" alt="icon">
+                <p class="project-title">Honey OS</p>
+                <p style="font-size: 0.8rem">Honey-themed OS Simulator with voice command features.</p>
+                <button class="shakeButton"><i class="fa-solid fa-forward"></i></button>
+            </div>
+            <div class="section-item">
+                <img class="project-icon" src="images/merry-mayhem.png" alt="icon">
+                <p class="project-title">Merry Mayhem</p>
+                <p style="font-size: 0.8rem">2-4 players playing as elves in a Christmas-themed Bomberman game.</p>
+                <button class="shakeButton"><i class="fa-solid fa-forward"></i></button>
+            </div>
+            <div class="section-item">
+                <img class="project-icon" src="images/beyond-the-mirage.png" alt="icon">
+                <p class="project-title">Beyond the Mirage</p>
+                <p style="font-size: 0.8rem">Explore the stories within Cebu during the Martial Law.</p>
+                <button class="shakeButton"><i class="fa-solid fa-forward"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="contact-title">Contact Me</h2>
+        <form class="contact-form">
+            <section>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+            </section>
+            <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+    </section>
+
+</body>
+</html>
